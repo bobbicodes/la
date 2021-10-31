@@ -1,10 +1,10 @@
-(ns shadow-reagent.app
+(ns la.app
   (:require [reagent.core :as r]
             [reagent.dom :as rdom]))
 
 (defn app []
   [:div#app
-   [:h1 "shadow-cljs reagent template"]])
+   [:h1 "Linear Algebra with Clojurescript"]])
 
 (defn render []
   (rdom/render [app]

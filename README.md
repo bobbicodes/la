@@ -1,16 +1,7 @@
-# shadow-reagent
-
-Like the [official quickstart](https://github.com/thheller/shadow-cljs), but without the extra steps.
+# Linear Algebra with Clojurescript
 
 ## Development
-
-You'll likely want to change the name from `shadow-reagent` to whatever your project is called. Here's where you need to do that:
-
-1. In the `shadow-cljs.edn` file in the project root (so your `init` fn will be called)
-2. Rename the directory in the `src` path (inside the project root)- *make sure to change hyphens (-) to underscores (_).*
-3. In the `ns` macro at the top of `app.cljs`
-
-Now you can do the thing:
+First do the thing:
 
 ```bash
 $ npm install
