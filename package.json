@@ -33,6 +33,7 @@
     "@codemirror/state": "0.18.7",
     "@codemirror/view": "0.18.19",
     "lezer-clojure": "0.1.10",
+    "lezer-generator": "^0.13.4",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "shadow-cljs": "^2.15.12"
