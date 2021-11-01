@@ -6,7 +6,11 @@
   (is (= (vectors/scalar (- (/ 1 2))
                  {:magnitude 4
                   :direction 80})
-         {:magnitude 2 :direction 260})))
+         {:magnitude 2 :direction 260}))
+  (is (= (vectors/scalar (/ 1 3)
+                 {:magnitude 6
+                  :direction 300})
+         {:magnitude 2, :direction 300})))
 
 (comment
   (run-tests))

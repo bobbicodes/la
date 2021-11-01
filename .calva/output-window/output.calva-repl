@@ -123,3 +123,117 @@ Ran 1 tests containing 1 assertions.
 
 nil
 cljs꞉la.vectors-test꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+Cannot read properties of undefined (reading 'scalar')
+cljs꞉la.vectors꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+Cannot set properties of undefined (setting 'scalar')
+cljs꞉la.vectors꞉> 
+nil
+cljs꞉la.vectors꞉> 
+#'la.vectors/scalar
+cljs꞉la.vectors꞉> 
+{:magnitude 3, :direction 480}
+cljs꞉la.vectors꞉> 
+360
+cljs꞉la.vectors꞉> 
+120
+cljs꞉la.vectors꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (scalar (- (/ 1 2))
+ {:magnitude 6
+  :direction 300})
+no source by provide: la.vectors
+{:provide la.vectors}
+ExceptionInfo: no source by provide: la.vectors
+	shadow.build.data/get-source-id-by-provide (data.clj:186)
+	shadow.build.data/get-source-id-by-provide (data.clj:183)
+	shadow.build.data/get-source-by-provide (data.clj:189)
+	shadow.build.data/get-source-by-provide (data.clj:188)
+	shadow.cljs.repl/repl-compile/fn--15628/fn--15629 (repl.clj:437)
+	shadow.cljs.repl/repl-compile/fn--15628 (repl.clj:413)
+	shadow.cljs.repl/repl-compile (repl.clj:411)
+	shadow.cljs.repl/repl-compile (repl.clj:408)
+	shadow.cljs.repl/process-read-result (repl.clj:499)
+	shadow.cljs.repl/process-read-result (repl.clj:475)
+	shadow.cljs.repl/process-input (repl.clj:659)
+	shadow.cljs.repl/process-input (repl.clj:637)
+	shadow.cljs.devtools.server.worker.impl/eval16193/fn--16196 (impl.clj:685)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--15837/fn--15838/fn--15846 (util.clj:284)
+	shadow.cljs.devtools.server.util/server-thread/fn--15837/fn--15838 (util.clj:283)
+	shadow.cljs.devtools.server.util/server-thread/fn--15837 (util.clj:256)
+	java.lang.Thread.run (Thread.java:833)
+
+cljs꞉la.vectors꞉> 
+nil
+cljs꞉la.vectors꞉> 
+#'la.vectors/scalar
+cljs꞉la.vectors꞉> 
+{:magnitude 3, :direction 300}
+cljs꞉la.vectors꞉> 
+{:magnitude 2, :direction 300}
+cljs꞉la.vectors꞉> 
+nil
+cljs꞉la.vectors-test꞉> 
+#'la.vectors-test/scalar-multiplication-test
+cljs꞉la.vectors-test꞉> 
+
+Testing la.vectors-test
+
+
+FAIL in (scalar-multiplication-test) (repl-input.cljs:2:7)
+
+expected: (= (vectors/scalar (- (/ 1 2)) {:magnitude 4, :direction 80}) {:magnitude 2, :direction 260})
+
+  actual: (not (= {:magnitude 2, :direction 80} {:magnitude 2, :direction 260}))
+
+
+Ran 1 tests containing 2 assertions.
+
+1 failures, 0 errors.
+
+nil
+cljs꞉la.vectors-test꞉> 
+nil
+cljs꞉la.vectors꞉> 
+#'la.vectors/scalar
+cljs꞉la.vectors꞉> 
+nil
+cljs꞉la.vectors-test꞉> 
+#'la.vectors-test/scalar-multiplication-test
+cljs꞉la.vectors-test꞉> 
+
+Testing la.vectors-test
+
+
+FAIL in (scalar-multiplication-test) (repl-input.cljs:6:7)
+
+expected: (= (vectors/scalar (- (/ 1 3)) {:magnitude 6, :direction 300}) {:magnitude 2, :direction 300})
+
+  actual: (not (= {:magnitude 2, :direction 420} {:magnitude 2, :direction 300}))
+
+
+Ran 1 tests containing 2 assertions.
+
+1 failures, 0 errors.
+
+nil
+cljs꞉la.vectors-test꞉> 
+#'la.vectors-test/scalar-multiplication-test
+cljs꞉la.vectors-test꞉> 
+
+Testing la.vectors-test
+
+
+Ran 1 tests containing 2 assertions.
+
+0 failures, 0 errors.
+
+nil
+cljs꞉la.vectors-test꞉> 

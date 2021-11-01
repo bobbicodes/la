@@ -3,13 +3,12 @@
 
 (defn scalar [multiplier {:keys [magnitude direction]}]
   {:magnitude (* (abs multiplier) magnitude)
-   :direction (+ direction (abs (* 360 multiplier)))})
+   :direction 
+   (if (pos? multiplier) direction
+     (+ direction (abs (* 360 multiplier))))})
 
-(scalar (- (/ 1 2))
- {:magnitude 4
-  :direction 80})
+(scalar (- (/ 1 3))
+ {:magnitude 6
+  :direction 300})
 
-{:magnitude nil
- :direction nil}
-
-(+ 80 (abs (* 360 (- (/ 1 2)))))
+(mod 480 360)
