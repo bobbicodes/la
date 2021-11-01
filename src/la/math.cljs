@@ -2,6 +2,8 @@
 
 (def pi js/Math.PI)
 
+(defn abs [n] (.abs js/Math n))
+
 (defn sq [n]
   (* n n))
 

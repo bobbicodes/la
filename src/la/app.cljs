@@ -5,13 +5,12 @@
             [la.math :refer [pi]]))
 
 (defonce tri
-  (r/atom {:vertices ["A" "B" "C"]
-           :lines [nil nil 1]
-           :angles [nil (/ pi 2) (/ pi 6)]}))
+  (r/atom {:magnitude 4
+           :direction 80}))
 
 (defn app []
   [:div#app
-   [:h1 "Linear Algebra with Clojurescript"]
+   [:h2 "Linear Algebra"]
    [editor/editor (str @tri) !tri {:eval? true}]])
 
 (defn render []

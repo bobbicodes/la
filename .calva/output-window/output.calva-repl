@@ -25,3 +25,101 @@ clj꞉shadow.user꞉> 
 ;    (There is a button in the status bar for this)
 ; Jack-in done.
 cljs꞉cljs.user꞉> 
+260
+cljs꞉la.vectors꞉> 
+260
+cljs꞉la.vectors꞉> 
+-100
+cljs꞉la.vectors꞉> 
+-180
+cljs꞉la.vectors꞉> 
+0.5
+cljs꞉la.vectors꞉> 
+-180
+cljs꞉la.vectors꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (ns la.vectors
+  (:require [la.math :refer [abs]]))
+Invalid :refer, var la.math/abs does not exist
+cljs꞉la.vectors꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:8
+ Use of undeclared Var la.vectors/abs
+--------------------------------------------------------------------------------
+
+cljs꞉la.vectors꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:8
+ Use of undeclared Var la.latex/abs
+--------------------------------------------------------------------------------
+
+cljs꞉la.latex꞉> 
+nil
+cljs꞉la.vectors꞉> 
+260
+cljs꞉la.vectors꞉> 
+#'la.vectors/scalar
+cljs꞉la.vectors꞉> 
+{:magnitude -2, :direction 260}
+cljs꞉la.vectors꞉> 
+#'la.vectors/scalar
+cljs꞉la.vectors꞉> 
+{:magnitude 2, :direction 260}
+cljs꞉la.vectors꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var la.vectors-test/run-tests
+--------------------------------------------------------------------------------
+
+cljs꞉la.vectors-test꞉> 
+nil
+cljs꞉la.vectors-test꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+Cannot read properties of undefined (reading 'call')
+cljs꞉la.vectors-test꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+Cannot read properties of undefined (reading 'call')
+cljs꞉la.vectors-test꞉> 
+nil
+cljs꞉la.vectors-test꞉> 
+#'la.vectors-test/scalar-multiplication-test
+cljs꞉la.vectors-test꞉> 
+
+Testing la.vectors-test
+
+
+FAIL in (scalar-multiplication-test) (repl-input.cljs:2:7)
+
+expected: (= (vectors/scalar (- (/ 1 2)) {:magnitude 4, :direction 80}) {:magnitude 2, :direction 260})
+
+  actual: (not (= {:magnitude -2, :direction -100} {:magnitude 2, :direction 260}))
+
+
+Ran 1 tests containing 1 assertions.
+
+1 failures, 0 errors.
+
+nil
+cljs꞉la.vectors-test꞉> 
+#'la.vectors/scalar
+cljs꞉la.vectors꞉> 
+{:magnitude 2, :direction 260}
+cljs꞉la.vectors꞉> 
+
+Testing la.vectors-test
+
+
+Ran 1 tests containing 1 assertions.
+
+0 failures, 0 errors.
+
+nil
+cljs꞉la.vectors-test꞉> 
