@@ -2,7 +2,8 @@
   (:require [reagent.core :as r]
             [reagent.dom :as rdom]
             [la.editor :as editor :refer [update-editor! !tri eval-all]]
-            [la.math :refer [pi]]))
+            [la.math :refer [pi]]
+            [la.vectors :refer []]))
 
 (defonce tri
   (r/atom {:magnitude 4
@@ -41,13 +42,13 @@
   [:path {:d "M225 205v-10M250 205v-10M275 205v-10M300 205v-10M325 205v-10M350 205v-10M375 205v-10M175 205v-10M150 205v-10M125 205v-10M100 205v-10M75 205v-10M50 205v-10M25 205v-10M195 175h10M195 150h10M195 125h10M195 100h10M195 75h10M195 50h10M195 25h10M195 225h10M195 250h10M195 275h10M195 300h10M195 325h10M195 350h10M195 375h10"
           :stroke "#ffcc00"}])
 
-(defn v []
+(defn v [x y a]
   [:g 
-   [:path {:d "M269.626 156.182c.35-2.1 4.2-5.25 5.25-5.6-1.05-.35-4.9-3.5-5.25-5.6"
-              :transform "rotate(-33.69 274.876 150.582)"
+   [:path {:d (str "M" (+ 200 x) " " (+ 200 y) "c.35-2.1 4.2-5.25 5.25-5.6-1.05-.35-4.9-3.5-5.25-5.6")
+              :transform (str "rotate(" a " " (+ x 205.25) " " (+ y 194.4) ")")
               :stroke "#61e2ff"
               :fill "none"}]
-   [:path {:d "M200 200l74.126-49.418"
+   [:path {:d (str "M200 200l" (+ x 4.5) " " (- y 5.6))
            :stroke "#61e2ff"
            :fill "none"}]])
 
@@ -59,7 +60,8 @@
         [arrows]
         [axes]
         [ticks]
-        [v]]])
+        [v 69.626 -43.818 -33.69]
+        [v -79.03 -143.46 -116.565]]])
 
 (defn app []
   [:div#app

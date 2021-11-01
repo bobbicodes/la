@@ -237,3 +237,27 @@ Ran 1 tests containing 2 assertions.
 
 nil
 cljs꞉la.vectors-test꞉> 
+5.25
+cljs꞉la.app꞉> 
+-5.599999999999994
+cljs꞉la.app꞉> 
+69.62599999999998
+cljs꞉la.app꞉> 
+-79.03
+cljs꞉la.app꞉> 
+4.5
+cljs꞉la.app꞉> 
+43.81800000000001
+cljs꞉la.app꞉> 
+194.4
+cljs꞉la.app꞉> 
+143.46
+cljs꞉la.app꞉> 
+-143.46
+cljs꞉la.app꞉> 
+-156.18200000000002
+cljs꞉la.app꞉> 
+249.418
+cljs꞉la.app꞉> 
+5.600000000000001
+cljs꞉la.app꞉> 
