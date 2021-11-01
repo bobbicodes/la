@@ -345,3 +345,59 @@ Ran 2 tests containing 3 assertions.
 
 nil
 cljs꞉la.vectors-test꞉> 
+[5 -2]
+cljs꞉la.vectors꞉> 
+#'la.vectors-test/endpoint-test
+cljs꞉la.vectors-test꞉> 
+
+Testing la.vectors-test
+
+
+Ran 2 tests containing 4 assertions.
+
+0 failures, 0 errors.
+
+nil
+cljs꞉la.vectors-test꞉> 
+{:magnitude 15, :direction 160}
+cljs꞉la.vectors꞉> 
+#'la.vectors-test/scalar-multiplication-test
+cljs꞉la.vectors-test꞉> 
+
+Testing la.vectors-test
+
+
+Ran 2 tests containing 5 assertions.
+
+0 failures, 0 errors.
+
+nil
+cljs꞉la.vectors-test꞉> 
+[-2 -3]
+cljs꞉la.vectors꞉> 
+#'la.vectors-test/endpoint-test
+cljs꞉la.vectors-test꞉> 
+
+Testing la.vectors-test
+
+
+Ran 2 tests containing 6 assertions.
+
+0 failures, 0 errors.
+
+nil
+cljs꞉la.vectors-test꞉> 
+[2 1]
+cljs꞉la.vectors꞉> 
+#'la.vectors-test/endpoint-test
+cljs꞉la.vectors-test꞉> 
+
+Testing la.vectors-test
+
+
+Ran 2 tests containing 7 assertions.
+
+0 failures, 0 errors.
+
+nil
+cljs꞉la.vectors-test꞉> 
