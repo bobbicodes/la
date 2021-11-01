@@ -7,8 +7,8 @@
    (if (pos? multiplier) direction
      (+ direction (abs (* 360 multiplier))))})
 
-(scalar (- (/ 1 3))
- {:magnitude 6
-  :direction 300})
-
-(mod 480 360)
+(comment
+  (scalar (- (/ 1 3))
+          {:magnitude 6
+           :direction 300})
+  )
