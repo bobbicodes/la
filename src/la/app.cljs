@@ -49,8 +49,8 @@
 (defn graph [x1 y1 x2 y2]
   [:svg {:width "100%" :view-box (str "0 0 " view-box-width " " view-box-height)}
    [:g [grid] [arrows] [axes] [ticks]
-    [v (* x1 25) (* y1 -25) -116.565]
-    [v (* x2 25) (* y2 -25) -33.69]]])
+    [v (* x1 25) (* y1 -25) (- -180 (* (/ 180 3.141592653589) (.atan js/Math (/ y1 x1))))]
+    [v (* x2 25) (* y2 -25) (- (* (/ 180 3.141592653589) (.atan js/Math (/ y2 x2))))]]])
 
 (defn app []
   [:div#app
