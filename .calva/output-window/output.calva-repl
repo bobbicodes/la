@@ -401,3 +401,88 @@ Ran 2 tests containing 7 assertions.
 
 nil
 cljs꞉la.vectors-test꞉> 
+72
+cljs꞉la.vectors꞉> 
+8.48528137423857
+cljs꞉la.vectors꞉> 
+#'la.vectors/unit-vector
+cljs꞉la.vectors꞉> 
+8.48528137423857
+cljs꞉la.vectors꞉> 
+nil
+cljs꞉la.vectors꞉> 
+true
+cljs꞉la.vectors꞉> 
+8.48528137423857
+cljs꞉la.vectors꞉> 
+8.48528137423857
+cljs꞉la.vectors꞉> 
+8.48528137423857
+cljs꞉la.vectors꞉> 
+#'la.vectors/unit-vector
+cljs꞉la.vectors꞉> 
+{:value 8.48528137423857}
+cljs꞉la.vectors꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:5
+ Use of undeclared Var la.vectors/x
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:9
+ Use of undeclared Var la.vectors/y
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:19
+ Use of undeclared Var la.vectors/x
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:26
+ Use of undeclared Var la.vectors/y
+--------------------------------------------------------------------------------
+
+cljs꞉la.vectors꞉> 
+{:value 8.48528137423857}
+cljs꞉la.vectors꞉> 
+#'la.vectors/unit-vector
+cljs꞉la.vectors꞉> 
+{:x 6, :y 6, :value 8.48528137423857}
+cljs꞉la.vectors꞉> 
+#'la.vectors/unit-vector
+cljs꞉la.vectors꞉> 
+{:x 6, :y 6, :denom 72, :value 8.48528137423857}
+cljs꞉la.vectors꞉> 
+#'la.vectors/unit-vector
+cljs꞉la.vectors꞉> 
+{:x 6, :y 6, :denom "\\sqrt{72}", :value 8.48528137423857}
+cljs꞉la.vectors꞉> 
+{:x -8, :y 5, :denom "\\sqrt{89}", :value 9.433981132056603}
+cljs꞉la.vectors꞉> 
+{:x 5, :y -2, :denom "\\sqrt{29}", :value 5.385164807134504}
+cljs꞉la.vectors꞉> 
+{:x 2, :y 7, :denom "\\sqrt{53}", :value 7.280109889280518}
+cljs꞉la.vectors꞉> 
+{:x -3, :y 8, :denom "\\sqrt{73}", :value 8.54400374531753}
+cljs꞉la.vectors꞉> 
+{:x 2, :y -8, :denom "\\sqrt{68}", :value 8.246211251235321}
+cljs꞉la.vectors꞉> 
+{:x 6, :y 6, :denom "\\sqrt{72}", :value 8.48528137423857}
+cljs꞉la.vectors꞉> 
+{:x -8, :y 5, :denom "\\sqrt{89}", :value 9.433981132056603}
+cljs꞉la.vectors꞉> 
+; Evaluating file: vectors_test.cljs
+[]
+cljs꞉la.vectors-test꞉> 
+
+Testing la.vectors-test
+
+
+Ran 3 tests containing 9 assertions.
+
+0 failures, 0 errors.
+
+nil
+cljs꞉la.vectors-test꞉> 
