@@ -267,3 +267,81 @@ cljs꞉la.app꞉> 
 cljs꞉la.app꞉> 
 -150
 cljs꞉la.app꞉> 
+#'la.vectors/endpoint
+cljs꞉la.vectors꞉> 
+[1 -2]
+cljs꞉la.vectors꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:11
+ Use of undeclared Var la.vectors-test/endpoint
+--------------------------------------------------------------------------------
+
+cljs꞉la.vectors-test꞉> 
+nil
+cljs꞉la.vectors-test꞉> 
+#'la.vectors-test/scalar-multiplication-test
+cljs꞉la.vectors-test꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:11
+ Use of undeclared Var la.vectors-test/endpoint
+--------------------------------------------------------------------------------
+
+cljs꞉la.vectors-test꞉> 
+
+Testing la.vectors-test
+
+
+Ran 1 tests containing 2 assertions.
+
+0 failures, 0 errors.
+
+nil
+cljs꞉la.vectors-test꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:11
+ Use of undeclared Var la.vectors-test/endpoint
+--------------------------------------------------------------------------------
+
+cljs꞉la.vectors-test꞉> 
+nil
+cljs꞉la.vectors-test꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:11
+ Use of undeclared Var la.vectors-test/endpoint
+--------------------------------------------------------------------------------
+
+cljs꞉la.vectors-test꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:11
+ Use of undeclared Var la.vectors-test/endpoint
+--------------------------------------------------------------------------------
+
+cljs꞉la.vectors-test꞉> 
+#'la.vectors/endpoint
+cljs꞉la.vectors꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:11
+ Use of undeclared Var la.vectors-test/endpoint
+--------------------------------------------------------------------------------
+
+cljs꞉la.vectors-test꞉> 
+nil
+cljs꞉la.vectors-test꞉> 
+#'la.vectors-test/endpoint-test
+cljs꞉la.vectors-test꞉> 
+
+Testing la.vectors-test
+
+
+Ran 2 tests containing 3 assertions.
+
+0 failures, 0 errors.
+
+nil
+cljs꞉la.vectors-test꞉> 

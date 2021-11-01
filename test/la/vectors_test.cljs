@@ -12,5 +12,9 @@
                   :direction 300})
          {:magnitude 2, :direction 300})))
 
+(deftest endpoint-test
+  (is (= (vectors/endpoint (- (/ 1 3)) -3 6) [1 -2])))
+
 (comment
-  (run-tests))
+  (run-tests)
+  )
