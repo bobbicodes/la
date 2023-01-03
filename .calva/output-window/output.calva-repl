@@ -43,3 +43,129 @@ cljs꞉la.app꞉> 
 cljs꞉la.app꞉> 
 -116.56505117706197
 cljs꞉la.app꞉> 
+; : sq does not exist la.vectors 
+clj꞉la.vectors꞉> 
+; Evaluating file: math.cljc
+#<SciVar@399108a6: 
+  #object[sci.impl.fns$fun$arity_2__7886 0xe922318 "sci.impl.fns$fun$arity_2__7886@e922318"]>
+
+clj꞉la.math꞉> 
+nil
+
+clj꞉la.vectors꞉> 
+#<SciVar@5bca2674: 
+  #object[sci.impl.fns$fun$arity_2__7886 0x69a6b8ab "sci.impl.fns$fun$arity_2__7886@69a6b8ab"]>
+
+clj꞉la.vectors꞉> 
+#<SciVar@2dc710b6: 
+  #object[sci.impl.fns$fun$arity_3__7895 0x3a5df1fc "sci.impl.fns$fun$arity_3__7895@3a5df1fc"]>
+
+clj꞉la.vectors꞉> 
+#<SciVar@63cbaf8f: 
+  #object[sci.impl.fns$fun$arity_2__7886 0x69265728 "sci.impl.fns$fun$arity_2__7886@69265728"]>
+
+clj꞉la.vectors꞉> 
+{:x 2, :y -8, :denom "\\sqrt{68}", :value nil}
+
+clj꞉la.vectors꞉> 
+; : Could not resolve symbol: âˆ’2 la.vectors 
+clj꞉la.vectors꞉> 
+{:x 1, :y -2, :denom "\\sqrt{5}", :value nil}
+
+clj꞉la.vectors꞉> 
+nil
+
+clj꞉la.vectors꞉> 
+1
+
+clj꞉la.vectors꞉> 
+4
+
+clj꞉la.vectors꞉> 
+5
+
+clj꞉la.vectors꞉> 
+nil
+
+clj꞉la.vectors꞉> 
+{:x -8, :y 5, :denom "\\sqrt{89}", :value nil}
+
+clj꞉la.vectors꞉> 
+; Evaluating file: vectors_test.cljs
+; : Could not find namespace: cljs.test. la.vectors-test 
+; Evaluation of file vectors_test.cljs failed: class 
+clj꞉la.vectors-test꞉> 
+; Evaluating file: vectors_test.cljc
+; : Could not find namespace: cljs.test. la.vectors-test 
+; Evaluation of file vectors_test.cljc failed: class 
+clj꞉la.vectors-test꞉> 
+nil
+
+clj꞉la.vectors-test꞉> 
+; Evaluating file: vectors_test.cljc
+; : Could not resolve symbol: deftest la.vectors-test 
+; Evaluation of file vectors_test.cljc failed: class 
+clj꞉la.vectors-test꞉> 
+nil
+
+clj꞉la.vectors-test꞉> 
+nil
+
+clj꞉la.vectors-test꞉> 
+; Evaluating file: math.cljc
+; : Could not resolve symbol: n la.math 
+; Evaluation of file math.cljc failed: class 
+clj꞉la.math꞉> 
+nil
+
+clj꞉la.math꞉> 
+#<SciVar@71215661: 3.141592653589793>
+
+clj꞉la.math꞉> 
+; Evaluating file: math.cljc
+; : Could not resolve symbol: n la.math 
+; Evaluation of file math.cljc failed: class 
+clj꞉la.math꞉> 
+#<SciVar@4703a656: 
+  #object[sci.impl.fns$fun$arity_1__7879 0x5df4fa2d "sci.impl.fns$fun$arity_1__7879@5df4fa2d"]>
+
+clj꞉la.math꞉> 
+#<SciVar@461e9e2c: 
+  #object[sci.impl.fns$fun$arity_1__7879 0x5825d69a "sci.impl.fns$fun$arity_1__7879@5825d69a"]>
+
+clj꞉la.math꞉> 
+; : Could not resolve symbol: n la.math 
+clj꞉la.math꞉> 
+; Evaluating file: math.cljc
+#<SciVar@399108a6: 
+  #object[sci.impl.fns$fun$arity_2__7886 0x45ec984b "sci.impl.fns$fun$arity_2__7886@45ec984b"]>
+
+clj꞉la.math꞉> 
+; Evaluating file: vectors_test.cljc
+nil
+
+clj꞉la.vectors-test꞉> 
+nil
+
+clj꞉la.vectors-test꞉> 
+{:test 3, :pass 9, :fail 0, :error 0, :type :summary}
+
+clj꞉la.vectors-test꞉> 
+{:x -8, :y 5, :denom "\\sqrt{89}", :value 9.433981132056603}
+
+clj꞉la.vectors꞉> 
+{:x 1, :y -2, :denom "\\sqrt{5}", :value 2.23606797749979}
+
+clj꞉la.vectors꞉> 
+2.23606797749979
+
+clj꞉la.vectors꞉> 
+{:x -2, :y 3, :denom "\\sqrt{13}", :value 3.605551275463989}
+
+clj꞉la.vectors꞉> 
+{:x 7, :y -3, :denom "\\sqrt{58}", :value 7.615773105863909}
+
+clj꞉la.vectors꞉> 
+{:x -2, :y -2, :denom "\\sqrt{8}", :value 2.8284271247461903}
+
+clj꞉la.vectors꞉> 

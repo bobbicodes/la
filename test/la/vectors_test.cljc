@@ -1,6 +1,8 @@
 (ns la.vectors-test
-  (:require [cljs.test :refer (deftest is run-tests)]
-            [la.vectors :as vectors]))
+  (:require 
+   #?(:clj [clojure.test  :refer [deftest is run-tests]])
+   #?(:cljs [cljs.test :refer [deftest is run-tests]])
+   [la.vectors :as vectors]))
 
 ;; https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/e/scaling_vectors?modal=1
 
@@ -32,6 +34,6 @@
   (is (= (vectors/unit-vector -8 5)
          {:x -8, :y 5, :denom "\\sqrt{89}", :value 9.433981132056603})))
 
-(comment
+(comment 
   (run-tests)
   )

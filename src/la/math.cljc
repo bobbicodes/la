@@ -1,39 +1,39 @@
 (ns la.math)
 
 (def pi
-  #?(clj Math/PI)
-  #?(cljs js/Math.PI))
+  #?(:clj Math/PI)
+  #?(:cljs js/Math.PI))
 
 (defn sqrt [n]
-  #?(clj (Math/sqrt n))
-  #?(cljs (.sqrt js/Math n)))
+  #?(:clj (Math/sqrt n))
+  #?(:cljs (.sqrt js/Math n)))
 
 (defn sq [n]
   (* n n))
 
 (defn sin [rad]
-  #?(clj (Math/sin n))
-  #?(cljs (.sin js/Math n)))
+  #?(:clj (Math/sin rad))
+  #?(:cljs (.sin js/Math rad)))
 
 (defn cos [rad]
-  #?(clj (Math/cos n))
-  #?(cljs (.cos js/Math n)))
+  #?(:clj (Math/cos rad))
+  #?(:cljs (.cos js/Math rad)))
 
 (defn tan [rad]
-  #?(clj (Math/tan n))
-  #?(cljs (.tan js/Math n)))
+  #?(:clj (Math/tan rad))
+  #?(:cljs (.tan js/Math rad)))
 
 (defn asin [rad]
-  #?(clj (Math/asin n))
-  #?(cljs (.asin js/Math n)))
+  #?(:clj (Math/asin rad))
+  #?(:cljs (.asin js/Math rad)))
 
 (defn acos [rad]
-  #?(clj (Math/acos n))
-  #?(cljs (.acos js/Math n)))
+  #?(:clj (Math/acos rad))
+  #?(:cljs (.acos js/Math rad)))
 
 (defn atan [rad]
-  #?(clj (Math/atan n))
-  #?(cljs (.atan js/Math n)))
+  #?(:clj (Math/atan rad))
+  #?(:cljs (.atan js/Math rad)))
 
 (defn csc
   "Returns the cosecant, the reciprocal of the sine,
