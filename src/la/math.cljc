@@ -1,32 +1,39 @@
 (ns la.math)
 
-(def pi js/Math.PI)
+(def pi
+  #?(clj Math/PI)
+  #?(cljs js/Math.PI))
 
-(defn abs [n] (.abs js/Math n))
+(defn sqrt [n]
+  #?(clj (Math/sqrt n))
+  #?(cljs (.sqrt js/Math n)))
 
 (defn sq [n]
   (* n n))
 
-(defn sqrt [n]
-  (.sqrt js/Math n))
-
 (defn sin [rad]
-  (.sin js/Math rad))
+  #?(clj (Math/sin n))
+  #?(cljs (.sin js/Math n)))
 
 (defn cos [rad]
-  (.cos js/Math rad))
+  #?(clj (Math/cos n))
+  #?(cljs (.cos js/Math n)))
 
 (defn tan [rad]
-  (.tan js/Math rad))
+  #?(clj (Math/tan n))
+  #?(cljs (.tan js/Math n)))
 
 (defn asin [rad]
-  (.asin js/Math rad))
+  #?(clj (Math/asin n))
+  #?(cljs (.asin js/Math n)))
 
 (defn acos [rad]
-  (.acos js/Math rad))
+  #?(clj (Math/acos n))
+  #?(cljs (.acos js/Math n)))
 
 (defn atan [rad]
-  (.atan js/Math rad))
+  #?(clj (Math/atan n))
+  #?(cljs (.atan js/Math n)))
 
 (defn csc
   "Returns the cosecant, the reciprocal of the sine,

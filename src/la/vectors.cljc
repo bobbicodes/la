@@ -1,5 +1,5 @@
 (ns la.vectors
-  (:require [la.math :refer [abs sq sqrt]]))
+  (:require [la.math :refer [sq sqrt]]))
 
 (defn scalar [multiplier {:keys [magnitude direction]}]
   {:magnitude (* (abs multiplier) magnitude)
